@@ -2,7 +2,8 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {VscFolder, VscFolderLibrary} from 'react-icons/vsc'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -26,8 +27,13 @@ const About = () => {
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
-              <h5>Completed Projects</h5>
+              <h5>Projects</h5>
               <small>5</small>
+            </article>
+            <article className="about__card">
+              <FiUsers className="about__icon"/>
+              <h5>Outreach</h5>
+              <small>6+ Years Volunteering</small>
             </article>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores cum non cumque quia officiis veniam vero laboriosam architecto nesciunt dolorum dignissimos praesentium autem repellendus, velit quisquam. Ratione ad non dolorum?</p>

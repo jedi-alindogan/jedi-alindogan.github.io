@@ -80,7 +80,7 @@ header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 0;
+        top: -2.5rem;
     }
     
     .header__socials::before {

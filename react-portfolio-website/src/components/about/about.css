@@ -8,7 +8,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-light), transparent);
+    background: linear-gradient(45deg, transparent, var(--color-primary-variant), transparent);
     display: grid;
     place-items: center;
 }
@@ -27,7 +27,7 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
@@ -91,7 +91,7 @@
     .about__cards {
         grid-template: 1fr 1fr;
         gap: 1rem;
-        margin: 1.5rem;
+        margin: 1rem;
     }
 
     .about__content {
