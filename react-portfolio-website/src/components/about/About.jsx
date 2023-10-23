@@ -12,11 +12,11 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        {/* <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
-        </div>
+        </div> */}
 
         <div className="about__content">
           <div className="about__cards">
@@ -36,7 +36,7 @@ const About = () => {
               <small>6+ Years Volunteering</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores cum non cumque quia officiis veniam vero laboriosam architecto nesciunt dolorum dignissimos praesentium autem repellendus, velit quisquam. Ratione ad non dolorum?</p>
+          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at Caltech, and currently work at the Autonomous Robotics and Control Group at Caltech as a research engineering staff. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
         </div>
       </div>
     </section>

@@ -64,6 +64,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 /* Media Queies (Medium Devices) */
@@ -84,12 +85,12 @@
 /* Media Queies (Small Devices) */
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 50%;
         margin: 0 auto 0.5rem;
     }
 
     .about__cards {
-        grid-template: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
         margin: 1rem;
     }
@@ -100,6 +101,7 @@
 
     .about__content p {
         margin: 1.5rem;
+        font-size: 0.9rem;
     }
 
 }
