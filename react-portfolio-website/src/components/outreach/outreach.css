@@ -1,0 +1,46 @@
+.container.outreach__container {
+    width: 50%;
+    border-radius: 2rem;
+    background: var(--color-bg);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.outreach {
+    background: var(--color-bg);
+    text-align: center;
+    padding: 0.5rem;
+    user-select: none;
+    text-align: justify;
+}
+.outreach > h4 {
+    text-align: center;
+}
+.container.outreach__container:hover {
+    border: 1px solid var(--color-primary-variant);
+}
+
+.outreach__description {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+/* Media Queies (Medium Devices) */
+@media screen and (max-width: 1024px) {
+    .container.outreach__container {
+        width: 60%;
+    }
+}
+
+/* Media Queies (Small Devices) */
+@media screen and (max-width: 600px) {
+    .container.outreach__container {
+        width: var(--container-width-sm);
+    }
+    .outreach__description {
+        width: var(--container-width-sm);
+    }
+}

@@ -33,10 +33,10 @@ const About = () => {
             <article className="about__card">
               <RiServiceLine className="about__icon"/>
               <h5>Outreach</h5>
-              <small>5+ Years Tutoring</small>
+              <small>5+ Years Serving</small>
             </article>
           </div>
-          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. I currently work at the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech as a research engineering staff. I also volunteer as a STEM tutor online and locally. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
+          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. I currently work as a research engineering staff in the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech. I also volunteer as a STEM tutor online and locally. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
         </div>
       </div>
     </section>

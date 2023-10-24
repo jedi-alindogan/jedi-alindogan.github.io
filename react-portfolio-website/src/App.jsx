@@ -6,17 +6,20 @@ import {
 } from "react-router-dom";
 
 import Home from './components/home/Home'
-import Example from './components/projects/src/example/Example';
-
-
-
+import Project from './components/projects/src/project/Project';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/example" element={<Example/>} />
+        <Route path="/linc" element={<Project/>} />
+        <Route path="/me169-search-and-rescue-robot" element={<Project/>} />
+        <Route path="/me72-engineering-design-competition" element={<Project/>} />
+        <Route path="/nasa-2021-big-idea-challenge-lattice" element={<Project/>} />
+        <Route path="/data-driven-discovery-of-differentially-flat-coordinates" element={<Project/>} />
+        <Route path="/prm-for-high-dof-arms" element={<Project/>} />
+        <Route path="/stewart-platform-catching-simulation" element={<Project/>} />
         {/* <Route path="/template-path" element={<Component/>}/> */}
       </Routes>
     </BrowserRouter>
