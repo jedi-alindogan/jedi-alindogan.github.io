@@ -1,12 +1,10 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio1.jpg'
-import IMG3 from '../../assets/portfolio1.jpg'
-import IMG4 from '../../assets/portfolio1.jpg'
-import IMG5 from '../../assets/portfolio1.jpg'
-import IMG6 from '../../assets/portfolio1.jpg'
-import IMG7 from '../../assets/portfolio1.jpg'
+import IMG1 from './src/media/linc-gvrbot.png'
+import IMG2 from './src/media/hide-and-seek-bot.png'
+import IMG3 from './src/media/me72-bot.png'
+import IMG4 from './src/media/shuttle-bot-render.png'
+import IMG5 from './src/media/data-driven-unicycle.png'
 
 const data = [
 
@@ -19,8 +17,8 @@ const data = [
 {
   id: 2,
   image: IMG2,
-  title: "ME 169: Search and Rescue Robot",
-  href: "/me169-search-and-rescue-robot"
+  title: "ME169: Hide and Seek Robot",
+  href: "/me169-hide-and-seek-robot"
 },
 {
   id: 3,
@@ -39,19 +37,7 @@ const data = [
   image: IMG5,
   title: "Data-Driven Discovery of Differentially Flat Coordinates",
   href: "/data-driven-discovery-of-differentially-flat-coordinates"
-},
-{
-  id: 6,
-  image: IMG6,
-  title: "PRM for High-DOF Arms",
-  href: "/prm-for-high-dof-arms"
-},
-{
-  id: 7,
-  image: IMG7,
-  title: "Stewart Platform Catching Simulation",
-  href: "/stewart-platform-catching-simulation"
-},
+}
 ]
 const Projects = () => {
   return (

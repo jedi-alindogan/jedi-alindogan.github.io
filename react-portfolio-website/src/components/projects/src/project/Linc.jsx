@@ -9,9 +9,9 @@ import '../src-project.css';
 // "/nasa-2021-big-idea-challenge-lattice" ,
 // "/data-driven-discovery-of-differentially-flat-coordinates"
 
-const Project = () => {
+const Linc = () => {
   const projectData = {
-    projectTitle: "Project Name",
+    projectTitle: "Learning Introspective Control",
     projectDate: "23 OCT 2023",
     projectDescription: "This is a description of the project...",
   };
@@ -32,5 +32,4 @@ const Project = () => {
   );
 };
 
-
-export default Project;
+export default Linc;
