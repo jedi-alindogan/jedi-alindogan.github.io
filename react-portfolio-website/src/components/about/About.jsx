@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+// import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {RiServiceLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -28,15 +28,15 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>5</small>
+              <small>7</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon"/>
+              <RiServiceLine className="about__icon"/>
               <h5>Outreach</h5>
-              <small>6+ Years Volunteering</small>
+              <small>5+ Years Tutoring</small>
             </article>
           </div>
-          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at Caltech, and currently work at the Autonomous Robotics and Control Group at Caltech as a research engineering staff. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
+          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. I currently work at the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech as a research engineering staff. I also volunteer as a STEM tutor online and locally. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
         </div>
       </div>
     </section>

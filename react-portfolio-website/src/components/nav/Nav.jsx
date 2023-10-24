@@ -1,13 +1,29 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineMessage} from 'react-icons/ai'
-import {BiBook} from 'react-icons/bi'
+import {FaAward} from 'react-icons/fa'
 import {RiServiceLine} from 'react-icons/ri'
 import {useState} from 'react'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
+
+  useEffect(() => {
+    // Get the hash part of the URL (e.g., '#about', '#projects')
+    const hash = window.location.hash;
+
+    // Scroll to the corresponding section
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'auto' });
+        setActiveNav(hash);
+      }
+    }
+  }, []);
+
   return (
     <nav>
       <a href="#" 
@@ -18,10 +34,13 @@ const Nav = () => {
         className={activeNav==='#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#experience"  
         onClick={()=>setActiveNav('#experience')}
-        className={activeNav==='#experience' ? 'active' : ''}><BiBook/></a>
-      <a href="#services" 
-        onClick={()=>setActiveNav('#services')}
-        className={activeNav==='#services' ? 'active' : ''}><RiServiceLine/></a>
+        className={activeNav==='#experience' ? 'active' : ''}><FaAward/></a>
+      <a href="#projects"  
+        onClick={()=>setActiveNav('#projects')}
+        className={activeNav==='#projects' ? 'active' : ''}><VscFolderLibrary/></a>
+      <a href="#outreach" 
+        onClick={()=>setActiveNav('#outreach')}
+        className={activeNav==='#outreach' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#contact" 
         onClick={()=>setActiveNav('#contact')}
         className={activeNav==='#contact' ? 'active' : ''}><AiOutlineMessage/></a>

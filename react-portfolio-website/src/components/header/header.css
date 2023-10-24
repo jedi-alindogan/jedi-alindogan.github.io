@@ -44,12 +44,12 @@ header {
 
 /* Me */
 .me {
-    width: 28rem;
+    width: 32rem;
     position: relative;
-    left: calc(50% - 14rem);
+    left: calc(50% - 16rem);
     background: linear-gradient(var(--color-primary-variant), transparent);
     margin-top: 4rem;
-    border-radius: 15rem 15rem 0 0;
+    border-radius: 16rem 16rem 0 0;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
