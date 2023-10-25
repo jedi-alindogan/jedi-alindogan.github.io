@@ -13,7 +13,7 @@
     user-select: none;
     text-align: justify;
 }
-.outreach > h4 {
+.outreach__title {
     text-align: center;
 }
 .container.outreach__container:hover {
@@ -24,8 +24,8 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
+    text-align: justify;
+    margin: 0.8rem 1rem 3rem 1rem;
 }
 
 /* Media Queies (Medium Devices) */
@@ -38,9 +38,6 @@
 /* Media Queies (Small Devices) */
 @media screen and (max-width: 600px) {
     .container.outreach__container {
-        width: var(--container-width-sm);
-    }
-    .outreach__description {
-        width: var(--container-width-sm);
+        width: 95%;
     }
 }

@@ -2,17 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../src-project.css';
 
-// this needs to match the url for 
-// "/linc",
-// "/me169-hide-and-seek-robot",
-// "/me72-engineering-design-competition" ,
-// "/nasa-2021-big-idea-challenge-lattice" ,
-// "/data-driven-discovery-of-differentially-flat-coordinates"
-
+// idea: i want a window that lets me scroll through pdf.
 const Lattice = () => {
   const projectData = {
-    projectTitle: "NASA 2021 BIG IDEA Challenge: LATTICE",
-    projectDate: "23 OCT 2023",
+    projectTitle: "NASA 2022 BIG IDEA Challenge: LATTICE",
+    projectDate: "01 JAN 2022",
     projectDescription: "This is a description of the project...",
   };
 

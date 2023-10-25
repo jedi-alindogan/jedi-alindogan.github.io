@@ -18,7 +18,7 @@ const data = [
   id: 2,
   image: IMG2,
   title: "ME169: Hide and Seek Robot",
-  href: "/me169-hide-and-seek-robot"
+  href: "/me169-hide-and-seek-mobile-robot"
 },
 {
   id: 3,

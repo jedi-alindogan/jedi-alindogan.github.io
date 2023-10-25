@@ -21,6 +21,7 @@
 
 .project__content > h5 {
     color: var(--color-bg);
+    font-size: 0.7rem;
 }
 
 .project-image {
@@ -28,7 +29,7 @@
     margin: 0.5rem;
     overflow: hidden;
     width: auto;
-    height: 6rem;
+    height: 60%;
 }
 .project {
     margin: 0.25rem;

@@ -29,6 +29,17 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-ms: 90%;
+
+    --swiper-navigation-color: var(--color-primary-variant);
+    --swiper-pagination-color: var(--color-primary-variant);
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 8px;
+    --swiper-pagination-bullet-height: 8px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+    --swiper-pagination-bullet-vertical-gap: 6px;
 }
 
 html {
@@ -53,12 +64,15 @@ body {
     margin: 0 auto;
 }
 
+p {
+    font-size: 0.8rem;
+}
 h1, h2, h3, h4, h5 {
     font-weight: 500;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 section {

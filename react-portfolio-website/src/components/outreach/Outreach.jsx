@@ -1,15 +1,9 @@
 import React from 'react'
 import './outreach.css'
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-// import required modules
-import { Navigation } from 'swiper/modules';
+import { useRef, useEffect } from 'react';
+import { register } from 'swiper/element/bundle';
+register();
 
 const data = [
   {
@@ -30,27 +24,43 @@ const data = [
 ]
 
 const Outreach = () => {
+  const swiperElRef = useRef(null);
+  useEffect(() => {
+    // listen for Swiper events using addEventListener
+    swiperElRef.current.addEventListener('progress', (e) => {
+      const [swiper, progress] = e.detail;
+      console.log(progress);
+    });
+
+    swiperElRef.current.addEventListener('slidechange', (e) => {
+      console.log('slide changed');
+    });
+  }, []);
+
   return (
     <section id='outreach'>
       <h5>Make A Difference</h5>
       <h2>Outreach</h2>
-      <Swiper className="container outreach__container"
-        modules={[Navigation]}
-        spaceBetween={0}
-        slidesPerView={1.5}
-      >
-        {
-          data.map(({title, date, description}, index) => {
-            return (
-              <SwiperSlide className="outreach">
-                <h4 className="outreach__title">{title}</h4>
-                <h5 className="outreach__date">{date}</h5>
-                <small className="outreach__description">{description}</small>
-              </SwiperSlide>
-            )
-          })
-        }
-      </Swiper>
+      <div className="container outreach__container">
+        <swiper-container 
+          ref={swiperElRef} 
+          slides-per-view="1" 
+          pagination="true"
+        >
+          {
+            data.map(({title, date, description}, index) => {
+              return (
+                <swiper-slide>
+                  <h4 className="outreach__title">{title}</h4>
+                  <h5 className="outreach__date">{date}</h5>
+                  <small className="outreach__description">{description}</small>
+                </swiper-slide>
+              )
+            })
+          }
+        </swiper-container>
+      </div>
+      
       
     </section>
   )

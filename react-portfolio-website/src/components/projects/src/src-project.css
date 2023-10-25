@@ -1,0 +1,48 @@
+.back__button {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.project-slides {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.container.inner__project-container {
+    width: 40%;
+    @media screen and (max-width: 1024px) {
+        width: 60%;
+    }
+}
+
+.inner__project > h4 {
+    color: var(--color-primary)
+}
+
+.inner__project > p {
+    margin: 1rem auto;
+    text-align: justify;
+}
+
+.inner__project-image img, 
+.inner__project-video iframe {
+    height: 20rem;
+    width: 100%;
+}
+
+.caption {
+    margin-top: 0;
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+    .container.inner__project-container {
+        width: 60%;
+    }
+    .project-slides {
+        width: 100%;
+    }
+
+}
