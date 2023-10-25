@@ -3,7 +3,7 @@ import './projects.css'
 import IMG1 from './src/media/linc-gvrbot.png'
 import IMG2 from './src/media/hide-and-seek-bot.png'
 import IMG3 from './src/media/me72-bot.png'
-import IMG4 from './src/media/shuttle-bot-render.png'
+import IMG4 from './src/media/lattice.png'
 import IMG5 from './src/media/data-driven-unicycle.png'
 
 const data = [

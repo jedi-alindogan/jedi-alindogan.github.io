@@ -39,7 +39,7 @@ const Outreach = () => {
 
   return (
     <section id='outreach'>
-      <h5>Make A Difference</h5>
+      <h5>Making A Difference</h5>
       <h2>Outreach</h2>
       <div className="container outreach__container">
         <swiper-container 

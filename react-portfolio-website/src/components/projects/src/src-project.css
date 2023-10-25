@@ -32,6 +32,16 @@
     width: 100%;
 }
 
+#lattice-img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn.btn-primary.btn-publication {
+    margin: 1rem auto;
+    font-size: .8rem;
+}
+
 .caption {
     margin-top: 0;
     color: var(--color-primary);
