@@ -1,8 +1,9 @@
 
-.projects__container {
+.container.projects__container {
+    width: var(--container-width-lg);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -44,10 +45,22 @@
 }
 
 
-/* Media Queies (Medium and Small Devices) */
+/* Media Queies (Medium Devices) */
 @media screen and (max-width: 1024px) {
     .project__content {
         width: 8rem;
         aspect-ratio: 1/1;
     }
+    .container.projects__container {
+        width: var(--container-width-md);
+        justify-content: center;
+    }
+}
+
+/* Media Queies (Small Devices) */
+@media screen and (max-width: 1024px) {
+    .container.projects__container {
+        width: var( --container-width-ms);
+    }
+    
 }

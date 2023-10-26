@@ -1,9 +1,10 @@
 .container.outreach__container {
-    width: 50%;
     border-radius: 2rem;
+    width: 30rem;
     background: var(--color-bg);
     border: 1px solid transparent;
     transition: var(--transition);
+    padding: 2rem 2rem 0 2rem;
 }
 
 .outreach {
