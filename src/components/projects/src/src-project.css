@@ -1,6 +1,6 @@
 .back__button {
-    margin: 1rem;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .project-slides {
@@ -26,9 +26,13 @@
     text-align: justify;
 }
 
+.project-slide > .inner__project-image img, 
+.project-slide > .inner__project-video iframe {
+    height: 20rem;
+    width: 100%;
+}
 .inner__project-image img, 
 .inner__project-video iframe {
-    height: 20rem;
     width: 100%;
 }
 
@@ -49,7 +53,8 @@
 
 @media screen and (max-width: 1024px) {
     .container.inner__project-container {
-        width: 60%;
+        width: 100%;
+        margin: 0.35rem;
     }
     .project-slides {
         width: 100%;

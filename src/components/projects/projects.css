@@ -2,12 +2,12 @@
 .projects__container {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    justify-content:flex-start;
-    background: var(--color-bg);
+    justify-content: center;
     padding: 1rem;
-    border-radius: 1rem;
     border: 1px solid transparent;
+    border-radius: 1rem;
+    background: var(--color-bg);
+    transition: var(--transition);
 }
 
 .projects__container:hover {

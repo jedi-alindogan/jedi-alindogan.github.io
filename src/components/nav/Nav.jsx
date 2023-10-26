@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineMessage} from 'react-icons/ai'
 import {FaAward} from 'react-icons/fa'
 import {RiServiceLine} from 'react-icons/ri'
-import {useState} from 'react'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 
