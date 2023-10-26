@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cd3a08f.css",
-    "main.js": "/static/js/main.5ff3a882.js",
+    "main.css": "/static/css/main.ba44432c.css",
+    "main.js": "/static/js/main.1f4cb448.js",
     "static/media/caltech-BIG-Idea-Technical-Paper.pdf": "/static/media/caltech-BIG-Idea-Technical-Paper.7b5a5cd921c5d79e1e64.pdf",
     "static/media/linc-tipping-test.gif": "/static/media/linc-tipping-test.eee7a46f367b0428f4cd.gif",
     "static/media/shuttle-payload.gif": "/static/media/shuttle-payload.7a69fddb9b386b6dbc49.gif",
@@ -14,17 +14,16 @@
     "static/media/me72-bot.png": "/static/media/me72-bot.ad3ba58ae6bd3fa0f4e5.png",
     "static/media/linc-stack.png": "/static/media/linc-stack.c63bc613888023a94d8b.png",
     "static/media/lattice.png": "/static/media/lattice.212775c81c814bc00181.png",
-    "static/media/hide-and-seek-cube.png": "/static/media/hide-and-seek-cube.eb220709e3e17c291f1a.png",
     "static/media/me72-motor-calcs.png": "/static/media/me72-motor-calcs.ab137309630c3acd1d11.png",
     "static/media/data-driven-architecture.png": "/static/media/data-driven-architecture.89906b2a1592b00ccc2c.png",
     "static/media/cv.pdf": "/static/media/cv.bf24a2e0145dd1fe65d5.pdf",
     "static/media/bg-texture.png": "/static/media/bg-texture.820d2d07e4f4ea2ed72a.png",
     "index.html": "/index.html",
-    "main.0cd3a08f.css.map": "/static/css/main.0cd3a08f.css.map",
-    "main.5ff3a882.js.map": "/static/js/main.5ff3a882.js.map"
+    "main.ba44432c.css.map": "/static/css/main.ba44432c.css.map",
+    "main.1f4cb448.js.map": "/static/js/main.1f4cb448.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd3a08f.css",
-    "static/js/main.5ff3a882.js"
+    "static/css/main.ba44432c.css",
+    "static/js/main.1f4cb448.js"
   ]
 }
