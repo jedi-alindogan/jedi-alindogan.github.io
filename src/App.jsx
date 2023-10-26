@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes, // instead of "Switch"
   Route,
 } from "react-router-dom";
@@ -15,7 +15,7 @@ import DataDriven from './components/projects/src/project/DataDriven';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/linc" element={<Linc/>} />
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/data-driven-discovery-of-differentially-flat-coordinates" element={<DataDriven/>} />
         {/* <Route path="/template-path" element={<Component/>}/> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
