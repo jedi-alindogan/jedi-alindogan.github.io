@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba44432c.css",
+    "main.css": "/static/css/main.0bffccaa.css",
     "main.js": "/static/js/main.1f4cb448.js",
     "static/media/caltech-BIG-Idea-Technical-Paper.pdf": "/static/media/caltech-BIG-Idea-Technical-Paper.7b5a5cd921c5d79e1e64.pdf",
     "static/media/linc-tipping-test.gif": "/static/media/linc-tipping-test.eee7a46f367b0428f4cd.gif",
@@ -19,11 +19,11 @@
     "static/media/cv.pdf": "/static/media/cv.bf24a2e0145dd1fe65d5.pdf",
     "static/media/bg-texture.png": "/static/media/bg-texture.820d2d07e4f4ea2ed72a.png",
     "index.html": "/index.html",
-    "main.ba44432c.css.map": "/static/css/main.ba44432c.css.map",
+    "main.0bffccaa.css.map": "/static/css/main.0bffccaa.css.map",
     "main.1f4cb448.js.map": "/static/js/main.1f4cb448.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba44432c.css",
+    "static/css/main.0bffccaa.css",
     "static/js/main.1f4cb448.js"
   ]
 }
