@@ -29,16 +29,9 @@
     margin: 0.8rem 1rem 3rem 1rem;
 }
 
-/* Media Queies (Medium Devices) */
-@media screen and (max-width: 1024px) {
-    .container.outreach__container {
-        width: 60%;
-    }
-}
-
 /* Media Queies (Small Devices) */
 @media screen and (max-width: 600px) {
     .container.outreach__container {
-        width: 95%;
+        width: var(--container-width-ms);
     }
 }
