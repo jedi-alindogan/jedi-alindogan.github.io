@@ -56,7 +56,7 @@ const Projects = () => {
     )
   }
   const select_project = (activeProject) => {
-    if (activeProject == -1){
+    if (activeProject === -1){
       return (
         data.map(({image, title}, idx) => {
           return (
