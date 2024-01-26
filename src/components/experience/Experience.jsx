@@ -13,12 +13,12 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
-              <div><h4>B.Sc. Mechanical Engineering</h4>
+              <div><h4>B.S. Mechanical Engineering</h4>
               <small className="text-light">California Institute of Technology 09/2021 - 06/2023</small></div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
-              <div><h4>A.Sc. Physics, Math, Mechanical Engineering, Electrical Engineering</h4>
+              <div><h4>A.S. Physics, Math, Mechanical Engineering, Electrical Engineering</h4>
               <small className="text-light">American River Community College 06/2018 - 06/2021</small></div>
             </article>
           </div>

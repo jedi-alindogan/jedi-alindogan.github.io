@@ -41,7 +41,7 @@ const Linc = () => {
           <swiper-slide class="project-slide">
             <div className="inner__project-video">
               <iframe
-                src="https://www.youtube.com/embed/23nepFZ-t5g"
+                src="https://www.youtube.com/embed/23nepFZ-t5g?rel=0"
                 title="gvr-bot driving"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
