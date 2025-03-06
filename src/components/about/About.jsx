@@ -36,7 +36,7 @@ const About = () => {
               <small>5+ Years Serving</small>
             </article>
           </div>
-          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. I currently work as a research engineering staff in the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech. I also volunteer as a STEM tutor online and locally. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
+          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. Last year, I worked as a research engineering staff in the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech. I am currently a PhD student at Caltech studying Control and Dynamical Systems. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
         </div>
       </div>
     </section>
