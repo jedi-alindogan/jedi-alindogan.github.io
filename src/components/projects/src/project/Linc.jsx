@@ -74,6 +74,7 @@ const Linc = () => {
       
       <p>In both the planning and control subteams, I contributed by preparing environments for experimentation, gathering data, and confirming tipping safety constraints. More specifically, the experimentation setup and data gathering entailed running specific or random trajectories with dynamic terrain. For example, an infinity loop on both flat and slanted ground. In regard to the tipping safety constraint, I confirmed the motion scenarios on slants in which the robot would tip over. Thus, by saturating the motion according to the slant, my work decreased the likelihood of tipping.</p>
       
+      <p>This project also led to a paper published in IEEE TRO which can be found on arXiv here <a href="https://arxiv.org/abs/2407.12304" target="_blank" rel="noopener noreferrer">MAGIC-VFM: Meta-learning Adaptation for Ground Interaction Control with Visual Foundation Models</a>.</p>
     </article>
   );
 };

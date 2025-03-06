@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a repo for my personal website. Have a look around.
 
 
 ### `npm start`

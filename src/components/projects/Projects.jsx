@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './projects.css'
 import { BiArrowBack } from 'react-icons/bi'
 
+import Traxxas from './src/project/Traxxas';
 import Linc from './src/project/Linc';
 import Me169 from './src/project/Me169';
 import Me72 from './src/project/Me72';
@@ -13,10 +14,16 @@ import IMG2 from './src/media/hide-and-seek-bot.png'
 import IMG3 from './src/media/me72-bot.png'
 import IMG4 from './src/media/lattice.png'
 import IMG5 from './src/media/data-driven-unicycle.png'
+import IMG6 from './src/media/traxxas.png'
 
 
 const Projects = () => {
   const data = [
+    {
+      image: IMG6,
+      title: "Autonomous Toy Car",
+      component: <Traxxas/>
+    },
     {
       image: IMG1,
       title: "Learning Introspective Control",
