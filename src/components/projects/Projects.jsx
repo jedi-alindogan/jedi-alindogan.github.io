@@ -8,6 +8,7 @@ import Me169 from './src/project/Me169';
 import Me72 from './src/project/Me72';
 import Lattice from './src/project/Lattice';
 import DataDriven from './src/project/DataDriven';
+import VerticalSnake from './src/project/VerticalSnake';
 
 import IMG1 from './src/media/linc-gvrbot.png'
 import IMG2 from './src/media/hide-and-seek-bot.png'
@@ -15,13 +16,19 @@ import IMG3 from './src/media/me72-bot.png'
 import IMG4 from './src/media/lattice.png'
 import IMG5 from './src/media/data-driven-unicycle.png'
 import IMG6 from './src/media/traxxas.png'
+import SNAKE from './src/media/snake.JPG'
 
 
 const Projects = () => {
   const data = [
     {
+      image: SNAKE,
+      title: "Vertical Snake: Reinforcement Learning",
+      component: <VerticalSnake/>
+    },
+    {
       image: IMG6,
-      title: "Autonomous Toy Car",
+      title: "Autonomous RC Car",
       component: <Traxxas/>
     },
     {

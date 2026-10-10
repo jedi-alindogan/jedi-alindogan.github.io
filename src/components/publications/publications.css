@@ -1,0 +1,36 @@
+.publications__list {
+    padding-left: 1.5rem;
+}
+
+.publication:last-child {
+    margin-bottom: 0;
+}
+
+.publication {
+    list-style: disc;
+    margin-bottom: 1rem;
+    overflow-wrap: anywhere;
+}
+
+.publication__year {
+    color: var(--color-light);
+}
+
+.publication__authors {
+    margin-top: 0.25rem;
+    color: var(--color-light);
+    font-size: inherit;
+}
+
+.publication__link {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.publication__link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+}
+.publications__container {
+    font-size: 0.9rem;
+}

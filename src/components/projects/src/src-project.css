@@ -11,10 +11,18 @@
 }
 
 .container.inner__project-container {
-    width: 40%;
-    @media screen and (max-width: 1024px) {
-        width: 60%;
-    }
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0.5rem clamp(0.5rem, 2vw, 1.5rem);
+}
+
+.inner__project--snake .inner__project-image {
+    margin: 1.5rem 0;
+}
+
+.inner__project--snake .inner__project-image img {
+    height: auto;
 }
 
 .inner__project > h4 {
@@ -36,6 +44,15 @@
     width: 100%;
 }
 
+.inner__project--linc .inner__project-image img {
+    height: auto;
+}
+
+.inner__project--linc .inner__project-video iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
 #lattice-img {
     width: 100%;
     height: 100%;
@@ -52,10 +69,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container.inner__project-container {
-        width: 100%;
-        margin: 0.35rem;
-    }
     .project-slides {
         width: 100%;
     }

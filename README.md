@@ -15,3 +15,7 @@ GitHub Pages still requires its own fallback for direct visits to project routes
 There are currently no automated tests or standalone lint setup. The unused CRA
 testing dependencies and CRA-only `test`, `eject`, and ESLint configuration were
 removed during migration. Rsbuild does not run ESLint as part of the build.
+
+Add or update publication entries in `src/data/publications.js`. Each entry has a
+title, year, link, and optional author and venue metadata. For a local paper, import
+its PDF and use the imported URL as the entry's `href`.

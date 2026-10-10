@@ -11,6 +11,7 @@ import Me169 from './components/projects/src/project/Me169';
 import Me72 from './components/projects/src/project/Me72';
 import Lattice from './components/projects/src/project/Lattice';
 import DataDriven from './components/projects/src/project/DataDriven';
+import VerticalSnake from './components/projects/src/project/VerticalSnake';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/linc" element={<Linc/>} />
+        <Route path="/vertical-snake-reinforcement-learning" element={<VerticalSnake/>} />
         <Route path="/me169-hide-and-seek-mobile-robot" element={<Me169/>} />
         <Route path="/me72-engineering-design-competition" element={<Me72/>} />
         <Route path="/nasa-2021-big-idea-challenge-lattice" element={<Lattice/>} />

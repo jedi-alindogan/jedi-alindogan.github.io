@@ -23,20 +23,20 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>Third Year Graduate Student; 1+ year working</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>5</small>
+              <small>7</small>
             </article>
             <article className="about__card">
               <RiServiceLine className="about__icon"/>
               <h5>Outreach</h5>
-              <small>5+ Years Serving</small>
+              <small>6+ Years Serving</small>
             </article>
           </div>
-          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. Last year, I worked as a research engineering staff in the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech. I am currently a PhD student at Caltech studying Control and Dynamical Systems. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
+          <p>I am a deeply motivated engineer with a passion for robotics and inclusive education. I received my B.Sc. in Mechanical Engineering at the California Institute of Technology (Caltech) in 2023 with a focus in robotics. In 2023, I worked as a research engineering staff in the <a HREF="https://aerospacerobotics.caltech.edu/" target="_blank">Autonomous Robotics and Control Group</a> at Caltech. I am currently a PhD student at Caltech studying Control and Dynamical Systems. In the future, I hope to pioneer autonomous robotics research and champion academic outreach.</p>
         </div>
       </div>
     </section>

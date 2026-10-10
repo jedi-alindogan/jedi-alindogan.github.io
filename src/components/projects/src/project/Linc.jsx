@@ -11,6 +11,7 @@ register();
 
 const Linc = () => {
   const swiperElRef = useRef(null);
+  const updateGalleryHeight = () => swiperElRef.current?.swiper?.updateAutoHeight();
   useEffect(() => {
     // listen for Swiper events using addEventListener
     swiperElRef.current.addEventListener('progress', (e) => {
@@ -24,16 +25,16 @@ const Linc = () => {
   }, []);
 
   return (
-    <article className="inner__project">
+    <article className="inner__project inner__project--linc">
       <h2>Learning Introspective Control</h2>
       <h4>23 OCT 2023</h4>
       <p>Funded by DARPA, the Learning Introspective Control (LINC) project aims to develop a machine learning-based introspection that enables systems to respond to events not predicted at design, with particular focus on GVR-Bots—-a tracked military ground robot. In other words, our goal is to develop algorithms that allow robots to adapt to events and environments capable of altering their dynamics. To accomplish this, we utilized Meta-learning Adaptation for Ground robot with Introspection and Control (MAGIC) for control and Monte-Carlo Tree Search (MCTS) for planning.</p>
 
       <div className="project-slides">
-        <swiper-container ref={swiperElRef} slides-per-view="1" navigation="true">
+        <swiper-container ref={swiperElRef} slides-per-view="1" navigation="true" auto-height="true">
           <swiper-slide class="project-slide">
             <div className="inner__project-image">
-              <img src={IMG1} alt="linc gvrbot" />
+              <img src={IMG1} alt="linc gvrbot" onLoad={updateGalleryHeight} />
               <small className="caption">GVR-Bot on Sand</small>
             </div>
           </swiper-slide>
@@ -53,14 +54,14 @@ const Linc = () => {
 
           <swiper-slide class="project-slide">
             <div className="inner__project-image">
-              <img src={IMG3} alt="linc tipping test" />
+              <img src={IMG3} alt="linc tipping test" onLoad={updateGalleryHeight} />
               <small className="caption">GVR-Bot Tipping Constraint Validation</small>
             </div>
           </swiper-slide>
           
           <swiper-slide class="project-slide">
             <div className="inner__project-image">
-              <img src={IMG2} alt="linc stack" />
+              <img src={IMG2} alt="linc stack" onLoad={updateGalleryHeight} />
               <small className="caption">GVR-Bot Stack</small>
             </div>
           </swiper-slide>

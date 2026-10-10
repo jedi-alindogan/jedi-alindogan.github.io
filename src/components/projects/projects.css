@@ -1,6 +1,7 @@
 
 .container.projects__container {
     width: var(--container-width-lg);
+    max-width: calc(100% - 2rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -53,12 +54,11 @@
     }
     .container.projects__container {
         width: var(--container-width-md);
-        justify-content: center;
     }
 }
 
 /* Media Queies (Small Devices) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .container.projects__container {
         width: var( --container-width-ms);
     }

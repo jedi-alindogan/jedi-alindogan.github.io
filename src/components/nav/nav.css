@@ -30,3 +30,15 @@ nav a.active {
     background: rgba(0,0,0,0.3);
     color: var(--color-primary-variant);
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        max-width: calc(100% - 1rem);
+        padding: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    nav a {
+        padding: 0.65rem;
+    }
+}

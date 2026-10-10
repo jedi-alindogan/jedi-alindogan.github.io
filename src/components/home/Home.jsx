@@ -5,6 +5,7 @@ import About from '../about/About'
 import Experience from '../experience/Experience'
 import Outreach from '../outreach/Outreach'
 import Projects from '../projects/Projects'
+import Publications from '../publications/Publications'
 import Contact from '../contact/Contact'
 import Footer from '../footer/Footer'
 
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Experience />
       <Projects />
+      <Publications />
       <Outreach />
       <Contact />
       <Footer />

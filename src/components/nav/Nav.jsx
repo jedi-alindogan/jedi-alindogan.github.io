@@ -4,6 +4,7 @@ import {AiOutlineHome, AiOutlineUser, AiOutlineMessage} from 'react-icons/ai'
 import {FaAward} from 'react-icons/fa'
 import {RiServiceLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {HiOutlineDocumentText} from 'react-icons/hi'
 
 
 const Nav = () => {
@@ -37,6 +38,10 @@ const Nav = () => {
       <a href="#projects"  
         onClick={()=>setActiveNav('#projects')}
         className={activeNav==='#projects' ? 'active' : ''}><VscFolderLibrary/></a>
+      <a href="#publications"
+        aria-label="Publications"
+        onClick={()=>setActiveNav('#publications')}
+        className={activeNav==='#publications' ? 'active' : ''}><HiOutlineDocumentText/></a>
       <a href="#outreach" 
         onClick={()=>setActiveNav('#outreach')}
         className={activeNav==='#outreach' ? 'active' : ''}><RiServiceLine/></a>

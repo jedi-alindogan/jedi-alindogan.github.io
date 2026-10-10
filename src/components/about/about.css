@@ -23,15 +23,16 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
 }
 
 .about__card {
     background: var(--color-bg);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
+    overflow-wrap: anywhere;
     text-align: center;
     transition: var(--transition);
 }
@@ -44,7 +45,7 @@
 .about__icon {
     color: var(--color-white);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -62,7 +63,7 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 1rem 0 0;
     color: var(--color-white);
     text-align: justify;
 }
@@ -90,9 +91,9 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 1rem;
-        margin: 1rem;
+        margin: 0;
     }
 
     .about__content {
@@ -100,7 +101,7 @@
     }
 
     .about__content p {
-        margin: 1.5rem;
+        margin: 1rem 0 0;
         font-size: 0.9rem;
     }
 }
